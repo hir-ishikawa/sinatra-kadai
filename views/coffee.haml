@@ -1,0 +1,15 @@
+%html
+	%head
+	%body
+		%p カフェへようこそ。お好きなコーヒーをお選び下さい。
+		%form{:action =>"/coffee",:method => "post"}
+			%input{:type =>"text",:name => "cofname"}
+			%input{:type =>"submit"}
+
+		%p ------menu------
+		%p 1.モカ
+		%p 2.キリマンジャロ
+		%p 3.アメリカン
+		%p 4.エスプレッソ
+		%p 5.カプチーノ          
+		%p 6.カフェラテ
